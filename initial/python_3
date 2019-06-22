@@ -6,19 +6,19 @@ def two_teams(a):
 if __name__ == '__main__':
     print("Example:")
     print(two_teams({'Abrahams': 19,
- 'Coleman': 45,
- 'Smith': 34,
- 'Wesson': 22}))
+	 'Coleman': 45,
+	 'Smith': 34,
+	 'Wesson': 22}))
 
     # These "asserts" are used for self-checking and not for an auto-testing
     assert two_teams({'Abrahams': 19,
- 'Coleman': 45,
- 'Smith': 34,
- 'Wesson': 22}) == [['Abrahams', 'Coleman'],
- ['Smith', 'Wesson']]
+	 'Coleman': 45,
+	 'Smith': 34,
+	 'Wesson': 22}) == [['Abrahams', 'Coleman'],
+	 ['Smith', 'Wesson']]
     assert two_teams({'Fernandes': 18,
- 'Johnson': 22,
- 'Kale': 41,
- 'McCortney': 54}) == [['Fernandes', 'Kale', 'McCortney'],
- ['Johnson']]
+	 'Johnson': 22,
+	 'Kale': 41,
+	 'McCortney': 54}) == [['Fernandes', 'Kale', 'McCortney'],
+	 ['Johnson']]
     print("Coding complete? Click 'Check' to earn cool rewards!")
